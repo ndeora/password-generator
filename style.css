@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://ucarecdn.com/0834a72c-11d4-4f68-a13e-91c6f717eac7/-/preview/1000x666/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+h1 {
+    text-align: center;
+}
+.pass-box {
+    background-color: rgb(246, 240, 208);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding : 10px; 
+}
+.password-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
